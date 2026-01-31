@@ -66,13 +66,16 @@ Create a `.env` file in the project root (required by `docker-compose`):
 ```
 OPENAI_API_KEY=your_key_here
 OPENAI_MODEL=gpt-4.1
-PORT=1772
+PORT=1883
 ```
 
-Build and run on port `1772`:
+Build and run:
 
 ```bash
 docker compose up --build
 ```
 
-Then open http://localhost:1772
+Then open:
+
+- Frontend: http://localhost:1772
+- Backend: http://localhost:1883
