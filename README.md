@@ -58,3 +58,21 @@ If running for the first time, install Playwright browsers:
 ```bash
 npx playwright install
 ```
+
+## Docker (minimal build)
+
+Create a `.env` file in the project root (required by `docker-compose`):
+
+```
+OPENAI_API_KEY=your_key_here
+OPENAI_MODEL=gpt-4.1
+PORT=1772
+```
+
+Build and run on port `1772`:
+
+```bash
+docker compose up --build
+```
+
+Then open http://localhost:1772
