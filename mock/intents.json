@@ -1,0 +1,27 @@
+{
+  "intents": [
+    {
+      "id": "intent_boss_dinner",
+      "match_phrases": ["boss dinner", "dinner for my boss", "invite my boss", "impress my boss"],
+      "intent_tags": ["premium", "gift", "pairing"],
+      "recommend": {
+        "product_ids": ["p_chocolate_pairing_box", "p_explorer_box"],
+        "recipe_ids": ["recipe_after_dinner_coffee"]
+      },
+      "followup_questions": [
+        "Do you want a premium gift or a lower price gift?",
+        "Do you want whole bean or ground?"
+      ]
+    },
+    {
+      "id": "intent_office_coffee",
+      "match_phrases": ["office", "team", "work", "meeting"],
+      "intent_tags": ["subscription"],
+      "recommend": {
+        "product_ids": ["p_all_roasts_subscription"],
+        "recipe_ids": []
+      },
+      "followup_questions": ["How many people will drink the coffee?"]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "storeName": "Driftaway Coffee",
+  "storeDomain": "https://store.driftaway.coffee",
+  "currency": "USD",
+  "support": {
+    "email": "support@driftaway.coffee",
+    "helpCenterUrl": "https://driftawaycoffee.gorgias.help",
+    "hours": "Mon to Fri, 9:00 AM to 5:00 PM ET"
+  },
+  "brandTone": {
+    "style": "clear and helpful",
+    "length": "short",
+    "rules": [
+      "Use short sentences",
+      "Share links for next steps",
+      "Do not invent facts"
+    ]
+  },
+  "policies": {
+    "shipping": {
+      "summaryLines": [
+        "Orders ship after roasting.",
+        "Shipping price and delivery time show at checkout.",
+        "Some locations support faster shipping options."
+      ]
+    },
+    "returns": {
+      "summaryLines": [
+        "Returns depend on product condition and order issue type.",
+        "Refunds go to the original payment method.",
+        "Support helps with damaged or incorrect items."
+      ]
+    }
+  },
+  "orderTracking": {
+    "howTo": [
+      "Find your order confirmation email.",
+      "Open the shipping confirmation email for the tracking link.",
+      "Contact support if you cannot find the email."
+    ],
+    "requiredInfoForSupport": ["order number", "email used at checkout"]
+  },
+  "categories": [
+    "Coffees",
+    "Subscriptions",
+    "Gifts",
+    "Box Sets"
+  ]
+}

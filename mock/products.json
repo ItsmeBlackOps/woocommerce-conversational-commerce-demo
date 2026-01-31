@@ -1,0 +1,183 @@
+{
+  "products": [
+    {
+      "id": "p_explorer_box",
+      "name": "Coffee Explorer Box",
+      "url": "https://store.driftaway.coffee/products/coffee-explorer-box",
+      "price": { "amount": 33.0, "currency": "USD" },
+      "summary": "A tasting box with five single origin coffees.",
+      "features": [
+        "Five single origin coffees",
+        "Multiple roast levels",
+        "Guided tasting experience"
+      ],
+      "tags": ["gift", "sampler", "tasting", "single-origin"],
+      "use_cases": ["gift", "coffee tasting", "trying new flavors"],
+      "attributes": {
+        "roast_levels": ["light", "medium", "dark", "mixed"],
+        "formats": ["whole bean", "ground"],
+        "caffeine": "caffeinated"
+      },
+      "availability": { "in_stock": true },
+      "shipping_notes": "Ships after roasting. Local pickup may be available in Brooklyn."
+    },
+    {
+      "id": "p_chocolate_pairing_box",
+      "name": "Coffee and Chocolate Pairing Box",
+      "url": "https://store.driftaway.coffee/products/coffee-chocolate-pairing-box",
+      "price": { "amount": 48.0, "currency": "USD" },
+      "summary": "Coffee and chocolate selected to taste together.",
+      "features": ["Three coffees", "Three chocolates", "Designed pairing experience"],
+      "tags": ["gift", "premium", "pairing"],
+      "use_cases": ["gift", "dinner", "special occasion"],
+      "attributes": {
+        "roast_levels": ["mixed"],
+        "formats": ["whole bean", "ground"],
+        "contains": ["chocolate"]
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_all_roasts_subscription",
+      "name": "All Roasts Subscription",
+      "url": "https://store.driftaway.coffee/collections/subscriptions",
+      "price": { "amount": 18.0, "currency": "USD" },
+      "summary": "Regular delivery of fresh coffee across roast styles.",
+      "features": ["Fresh delivery", "Flexible schedule", "Mixed roast styles"],
+      "tags": ["subscription"],
+      "use_cases": ["daily coffee", "office", "long term"],
+      "attributes": {
+        "frequency_options": ["weekly", "biweekly", "monthly"],
+        "formats": ["whole bean", "ground"],
+        "roast_levels": ["mixed"]
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_light_roasts_subscription",
+      "name": "Light Roasts Subscription",
+      "url": "https://store.driftaway.coffee/collections/subscriptions",
+      "price": { "amount": 18.0, "currency": "USD" },
+      "summary": "Regular delivery focused on light roast coffees.",
+      "features": ["Fresh delivery", "Light roast profile"],
+      "tags": ["subscription", "light roast"],
+      "use_cases": ["daily coffee", "filter brew"],
+      "attributes": {
+        "frequency_options": ["weekly", "biweekly", "monthly"],
+        "formats": ["whole bean", "ground"],
+        "roast_levels": ["light"]
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_espresso_roasts_subscription",
+      "name": "Espresso Roasts Subscription",
+      "url": "https://store.driftaway.coffee/collections/subscriptions",
+      "price": { "amount": 18.0, "currency": "USD" },
+      "summary": "Regular delivery designed for espresso brewing.",
+      "features": ["Espresso-friendly roasts", "Fresh delivery"],
+      "tags": ["subscription", "espresso"],
+      "use_cases": ["espresso", "milk drinks"],
+      "attributes": {
+        "frequency_options": ["weekly", "biweekly", "monthly"],
+        "formats": ["whole bean", "ground"],
+        "roast_levels": ["medium", "dark"]
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_coffee_gift_subscription",
+      "name": "Coffee Gift Subscription",
+      "url": "https://store.driftaway.coffee/collections/subscriptions",
+      "price": { "amount": 60.0, "currency": "USD" },
+      "summary": "A subscription purchase designed as a gift.",
+      "features": ["Gift-ready", "Flexible schedule"],
+      "tags": ["subscription", "gift"],
+      "use_cases": ["gift", "holiday"],
+      "attributes": {
+        "duration_options": ["1 month", "3 months", "6 months"],
+        "formats": ["whole bean", "ground"]
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_gift_card",
+      "name": "Gift Card",
+      "url": "https://store.driftaway.coffee/collections/gift",
+      "price": { "amount": 25.0, "currency": "USD" },
+      "summary": "A gift option when you do not know the exact coffee choice.",
+      "features": ["Easy gift", "Recipient chooses"],
+      "tags": ["gift"],
+      "use_cases": ["gift", "last minute"],
+      "attributes": {
+        "values": [25, 50, 100]
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_peach_cobbler",
+      "name": "Peach Cobbler",
+      "url": "https://store.driftaway.coffee/collections/coffees",
+      "price": { "amount": 19.0, "currency": "USD" },
+      "summary": "A light roast coffee with sweet fruit notes.",
+      "features": ["Light roast", "Fruity notes"],
+      "tags": ["light roast", "single-origin"],
+      "use_cases": ["morning coffee", "filter brew"],
+      "attributes": {
+        "roast_levels": ["light"],
+        "formats": ["whole bean", "ground"],
+        "caffeine": "caffeinated"
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_ethiopia_tariku_kare",
+      "name": "Ethiopia Tariku Kare",
+      "url": "https://store.driftaway.coffee/collections/coffees",
+      "price": { "amount": 20.0, "currency": "USD" },
+      "summary": "Single origin coffee with bright and floral notes.",
+      "features": ["Single origin", "Bright profile"],
+      "tags": ["single-origin", "light roast"],
+      "use_cases": ["coffee tasting", "filter brew"],
+      "attributes": {
+        "origin": "Ethiopia",
+        "processing": "washed",
+        "roast_levels": ["light"]
+      },
+      "availability": { "in_stock": true }
+    },
+    {
+      "id": "p_rwanda_juru",
+      "name": "Rwanda Juru",
+      "url": "https://store.driftaway.coffee/collections/coffees",
+      "price": { "amount": 20.0, "currency": "USD" },
+      "summary": "Single origin coffee with a balanced flavor.",
+      "features": ["Single origin", "Balanced profile"],
+      "tags": ["single-origin", "medium roast"],
+      "use_cases": ["daily coffee", "coffee tasting"],
+      "attributes": {
+        "origin": "Rwanda",
+        "processing": "washed",
+        "roast_levels": ["medium"]
+      },
+      "availability": { "in_stock": true }
+    }
+  ],
+  "cross_sell_rules": [
+    {
+      "if_cart_has_tags": ["tasting"],
+      "suggest_product_ids": ["p_chocolate_pairing_box"],
+      "reason": "Pair a tasting kit with a chocolate pairing box."
+    },
+    {
+      "if_cart_has_tags": ["subscription"],
+      "suggest_product_ids": ["p_gift_card"],
+      "reason": "Offer a gift option for another person."
+    },
+    {
+      "if_cart_has_tags": ["light roast"],
+      "suggest_product_ids": ["p_ethiopia_tariku_kare"],
+      "reason": "Suggest another bright coffee for variety."
+    }
+  ]
+}

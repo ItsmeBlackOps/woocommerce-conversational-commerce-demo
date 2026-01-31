@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "faq_tracking",
+      "question": "How do I track my order?",
+      "answer": "Check your shipping confirmation email for the tracking link. If you cannot find it, contact support with your order number and checkout email.",
+      "topics": ["tracking", "order"]
+    },
+    {
+      "id": "faq_grind",
+      "question": "Do you offer ground coffee?",
+      "answer": "Many products support whole bean and ground options. Tell me the product name and I will confirm the options.",
+      "topics": ["product", "grind"]
+    },
+    {
+      "id": "faq_subscription_change",
+      "question": "Can I change subscription frequency?",
+      "answer": "You can change subscription frequency in your account portal. If you cannot access it, support can help.",
+      "topics": ["subscription"]
+    },
+    {
+      "id": "faq_gift",
+      "question": "What is a good gift for a coffee lover?",
+      "answer": "Coffee Explorer Box works well for first-time gifts. Coffee and Chocolate Pairing Box works well for premium gifts.",
+      "topics": ["gift", "recommendation"]
+    },
+    {
+      "id": "faq_returns",
+      "question": "What is your return policy?",
+      "answer": "Returns depend on product condition. Contact support for damaged or incorrect items.",
+      "topics": ["returns", "refund"]
+    }
+  ]
+}

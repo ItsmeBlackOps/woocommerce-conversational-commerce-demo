@@ -1,0 +1,109 @@
+{
+  "store": {
+    "name": "Driftaway Coffee",
+    "domain": "https://store.driftaway.coffee",
+    "currency": "USD"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "type": "home",
+      "title": "Home",
+      "url": "https://store.driftaway.coffee",
+      "summary": "Fresh roasted specialty coffee, subscriptions, and gift boxes."
+    },
+    {
+      "id": "all-products",
+      "type": "category",
+      "title": "All Products",
+      "url": "https://store.driftaway.coffee/collections/all",
+      "summary": "All available items including coffees, gifts, and subscriptions.",
+      "top_products": [
+        "p_explorer_box",
+        "p_chocolate_pairing_box",
+        "p_all_roasts_subscription",
+        "p_coffee_gift_subscription"
+      ],
+      "filters_supported": ["product type", "coffee type", "roast level", "origin", "collection"]
+    },
+    {
+      "id": "coffees",
+      "type": "category",
+      "title": "Coffees",
+      "url": "https://store.driftaway.coffee/collections/coffees",
+      "summary": "Single origin coffees and blends across roast levels.",
+      "top_products": ["p_peach_cobbler", "p_ethiopia_tariku_kare", "p_rwanda_juru"],
+      "filters_supported": ["roast level", "origin", "processing method"]
+    },
+    {
+      "id": "subscriptions",
+      "type": "category",
+      "title": "Subscriptions",
+      "url": "https://store.driftaway.coffee/collections/subscriptions",
+      "summary": "Subscription plans for regular delivery.",
+      "top_products": [
+        "p_all_roasts_subscription",
+        "p_light_roasts_subscription",
+        "p_espresso_roasts_subscription",
+        "p_coffee_gift_subscription"
+      ],
+      "filters_supported": ["frequency", "roast profile", "grind"]
+    },
+    {
+      "id": "gifts",
+      "type": "category",
+      "title": "Gifts",
+      "url": "https://store.driftaway.coffee/collections/gift",
+      "summary": "Gift boxes and curated sets for coffee lovers.",
+      "top_products": ["p_explorer_box", "p_chocolate_pairing_box", "p_gift_card"],
+      "filters_supported": ["price", "gift type"]
+    },
+    {
+      "id": "shipping",
+      "type": "policy",
+      "title": "Shipping",
+      "url": "https://store.driftaway.coffee/shipping",
+      "policy_summary": [
+        "Orders ship after roasting.",
+        "Checkout shows final delivery time and price.",
+        "Support can help with missing shipments."
+      ]
+    },
+    {
+      "id": "returns",
+      "type": "policy",
+      "title": "Returns",
+      "url": "https://store.driftaway.coffee/returns",
+      "policy_summary": [
+        "Returns depend on product condition.",
+        "Refunds go to the original payment method.",
+        "Contact support for damaged items."
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "support",
+      "title": "Help Center",
+      "url": "https://driftawaycoffee.gorgias.help",
+      "support_channels": {
+        "email": "support@driftaway.coffee",
+        "hours": "Mon to Fri, 9:00 AM to 5:00 PM ET"
+      }
+    }
+  ],
+  "routing_keywords": [
+    { "keyword": "shop", "page_id": "all-products" },
+    { "keyword": "all products", "page_id": "all-products" },
+    { "keyword": "coffee", "page_id": "coffees" },
+    { "keyword": "beans", "page_id": "coffees" },
+    { "keyword": "subscription", "page_id": "subscriptions" },
+    { "keyword": "subscribe", "page_id": "subscriptions" },
+    { "keyword": "gift", "page_id": "gifts" },
+    { "keyword": "shipping", "page_id": "shipping" },
+    { "keyword": "delivery", "page_id": "shipping" },
+    { "keyword": "returns", "page_id": "returns" },
+    { "keyword": "refund", "page_id": "returns" },
+    { "keyword": "contact", "page_id": "contact" },
+    { "keyword": "help", "page_id": "contact" }
+  ]
+}

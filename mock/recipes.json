@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": "recipe_after_dinner_coffee",
+      "title": "After-dinner coffee and chocolate tasting",
+      "summary": "Serve coffee with small chocolate pieces. Keep it simple and premium.",
+      "steps": [
+        "Brew a coffee you like.",
+        "Serve small chocolates on a plate.",
+        "Taste coffee first, then chocolate, then coffee again."
+      ],
+      "recommended_product_tags": ["pairing", "premium", "tasting"],
+      "recommended_product_ids": ["p_chocolate_pairing_box"]
+    },
+    {
+      "id": "recipe_breakfast_filter",
+      "title": "Simple breakfast filter coffee",
+      "summary": "Brew a light roast coffee for a bright morning cup.",
+      "steps": [
+        "Use a filter brew method.",
+        "Use fresh water and medium grind.",
+        "Serve with breakfast foods you like."
+      ],
+      "recommended_product_tags": ["light roast"],
+      "recommended_product_ids": ["p_peach_cobbler", "p_ethiopia_tariku_kare"]
+    }
+  ]
+}

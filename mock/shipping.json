@@ -1,0 +1,41 @@
+{
+  "currency": "USD",
+  "cutoff_time_local": "2:00 PM ET",
+  "methods": [
+    {
+      "id": "standard",
+      "name": "Standard",
+      "min_days": 3,
+      "max_days": 7,
+      "note": "Checkout shows final delivery time and price."
+    },
+    {
+      "id": "express",
+      "name": "Express",
+      "min_days": 1,
+      "max_days": 3,
+      "note": "Checkout shows final delivery time and price."
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "us",
+      "name": "United States",
+      "default_method": "standard",
+      "overrides": [
+        { "state": "NY", "method": "standard", "min_days": 2, "max_days": 5 },
+        { "state": "CA", "method": "standard", "min_days": 3, "max_days": 7 }
+      ]
+    },
+    {
+      "region_id": "international",
+      "name": "International",
+      "default_method": "standard",
+      "overrides": []
+    }
+  ],
+  "common_answers": {
+    "freshness": "We roast coffee and ship after roasting.",
+    "final_source": "Checkout shows the final delivery time and price."
+  }
+}
